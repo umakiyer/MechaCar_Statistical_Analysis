@@ -2,14 +2,18 @@
 
 ## Linear Regression to Predict MPG:
 * Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+
 ![image](./image/mechacar.PNG)
+
 The summary output, each Pr(>|t|) value represents the probability that each coefficient contributes a random amount of variance to the linear model.
 According to our results, vehicle length and ground_clearance (as well as intercept) are statistically unlikely to provide random amounts of variance to the linear model. In other words the vehicle length and ground_clearance have a significant impact on quarter-mile race time
 
 * Is the slope of the linear model considered to be zero? Why or why not?
+
 The intercept is statiscally significant ( less tha .05) and not zero.
 
 * Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
 The multiple r-squared value is .71 indicationg the model does good job of predicting the mpg.
 
 ## Summary Statistics on Suspension Coils:
@@ -26,7 +30,8 @@ The multiple r-squared value is .71 indicationg the model does good job of predi
 
 
 ## T-Tests on Suspension Coils 
-All lots a re significantly different from mean (p-valoe is .06 )
+All lots a re significantly different from mean (p-value is .06 )
+
 ![image](./image/ttest_onesample.PNG)
 
 For Lot 1 we fail to reject null hypothesis as p- value is greater than the significance value( p- value =1)
